@@ -1,8 +1,12 @@
-# React + Vite
+# Textutils
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Textutils is a React application that provides various text manipulation functionalities such as converting text to uppercase, lowercase, and more. It leverages Bootstrap for styling and a user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
+- Convert text to uppercase
+- Convert text to lowercase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Componnets
+ - A textarea for text input.
+ - Buttons for various text transformations.
+ - A summary section displaying word count, character count, and estimated reading time.
