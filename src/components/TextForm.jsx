@@ -17,6 +17,10 @@ export default function TextForm(props){
         setText(text.toLowerCase())
     }
 
+    const clearText = () => {
+        setText('');
+    } 
+
     const wordCount = text.split(" ").length;
     const charCount = text.length;
     const readTime = 0.008 * wordCount;
@@ -29,6 +33,8 @@ export default function TextForm(props){
                     <textarea className="form-control" id="myBox" value={text} onChange={handleOnChange} rows="8"></textarea>
                     <button className="btn btn-primary my-3 mx-2" onClick={toUpCase}>Uppercase</button>
                     <button className="btn btn-primary my-3 mx-2" onClick={toLowerCase}>Lower case</button>
+                    <button className="btn btn-primary my-3 mx-2" onClick={clearText}>Clear</button>
+
                 </div>
 
                 <div className="container">
